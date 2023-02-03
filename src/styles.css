@@ -1,0 +1,41 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.menue-bar-box {
+  background: #d3cedf;
+  display: flex;
+  color: #706f6c;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.logo {
+  /* width: 90px; */
+  margin-left: 430px;
+  padding-top: 80px;
+ 
+  
+}
+
+.links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  margin-right: 440px;
+  /* padding-top: 150px; */
+}
+
+.links a {
+  text-decoration: none;
+  color: #706f6c;
+  padding: 30px;
+  font-size: 20px;
+}
