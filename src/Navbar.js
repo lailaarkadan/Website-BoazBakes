@@ -9,6 +9,13 @@ const Navbar = () => {
         <div className="logo-container">
           <img src="/images/logo.png" className="logo" alt="logo" />
         </div>
+        <a href="#" className="drop-down">
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        
+          
+        </a>
 
         <ul className="links">
           {links.map((link) => {

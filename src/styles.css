@@ -8,34 +8,77 @@ body {
   padding: 0;
 }
 .menue-bar-box {
+  
   background: #d3cedf;
   display: flex;
   color: #706f6c;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
+  /* height: 100px; */
+  padding: 1rem;
 }
 
 .logo {
-  /* width: 90px; */
-  margin-left: 430px;
-  padding-top: 80px;
+  /* width: 100px; */
+  /* margin-left: 430px; */
+  margin-left: 200px;
+  height: 60px;
+
  
-  
 }
 
 .links {
-  margin: 0;
+  margin: 0 auto;
+  /* margin: 0; */
   padding: 0;
   display: flex;
   list-style: none;
-  margin-right: 440px;
-  /* padding-top: 150px; */
+  margin-right: 540px;
 }
 
-.links a {
-  text-decoration: none;
+.links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+
+.links li a {
+  text-decoration: none ;
   color: #706f6c;
-  padding: 30px;
+  /* padding: 30px; */
+  padding: 0.5rem 1rem;
+  display: block;
   font-size: 20px;
+}
+
+.drop-down {
+  position: absolute;
+  right: 90px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+
+}
+.drop-down .bar {
+  height: 3px;
+  width:100%;
+  background-color: #706f6c;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+
+  .drop-down {
+    display: flex;
+    
+  }
+  .links {
+    display: none;
+  }
+  .logo {
+    margin-left: 40px;
+  }
 }
