@@ -6,6 +6,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="menue-bar-box">
+        <div className="menue-bar-content ">
         <div className="logo-container">
           <img src="/images/logo.png" className="logo" alt="logo" />
         </div>
@@ -27,6 +28,7 @@ const Navbar = () => {
             );
           })}
         </ul>
+        </div>
       </div>
     </nav>
   );
